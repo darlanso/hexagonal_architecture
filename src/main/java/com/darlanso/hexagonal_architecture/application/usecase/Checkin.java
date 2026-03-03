@@ -1,4 +1,8 @@
-package com.darlanso.hexagonal_architecture;
+package com.darlanso.hexagonal_architecture.application.usecase;
+import com.darlanso.hexagonal_architecture.adapters.input.web.dto.ParkedCarInputDTO;
+import com.darlanso.hexagonal_architecture.domain.model.ParkedCar;
+import com.darlanso.hexagonal_architecture.domain.port.ParkedCarRepository;
+
 import java.time.OffsetDateTime;
 
 import java.util.Date;

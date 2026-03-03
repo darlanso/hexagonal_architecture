@@ -1,5 +1,8 @@
 package com.darlanso.hexagonal_architecture;
 
+import com.darlanso.hexagonal_architecture.adapters.input.web.Controller;
+import com.darlanso.hexagonal_architecture.adapters.input.web.dto.CheckoutInputDTO;
+import com.darlanso.hexagonal_architecture.adapters.input.web.dto.ParkedCarInputDTO;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

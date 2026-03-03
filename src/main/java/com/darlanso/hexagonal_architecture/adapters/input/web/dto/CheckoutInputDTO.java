@@ -1,4 +1,4 @@
-package com.darlanso.hexagonal_architecture;
+package com.darlanso.hexagonal_architecture.adapters.input.web.dto;
 
 public class CheckoutInputDTO {
 	private String plate;

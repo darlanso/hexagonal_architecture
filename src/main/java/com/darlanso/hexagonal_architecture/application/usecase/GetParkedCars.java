@@ -1,4 +1,7 @@
-package com.darlanso.hexagonal_architecture;
+package com.darlanso.hexagonal_architecture.application.usecase;
+
+import com.darlanso.hexagonal_architecture.adapters.input.web.dto.ParkedCarOutputDTO;
+import com.darlanso.hexagonal_architecture.domain.port.ParkedCarRepository;
 
 import java.util.List;
 

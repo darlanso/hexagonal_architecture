@@ -1,4 +1,6 @@
-package com.darlanso.hexagonal_architecture;
+package com.darlanso.hexagonal_architecture.domain.port;
+
+import com.darlanso.hexagonal_architecture.domain.model.ParkedCar;
 
 import java.util.List;
 

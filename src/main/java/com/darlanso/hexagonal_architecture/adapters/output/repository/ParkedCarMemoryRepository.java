@@ -1,4 +1,7 @@
-package com.darlanso.hexagonal_architecture;
+package com.darlanso.hexagonal_architecture.adapters.output.repository;
+
+import com.darlanso.hexagonal_architecture.domain.model.ParkedCar;
+import com.darlanso.hexagonal_architecture.domain.port.ParkedCarRepository;
 
 import java.util.ArrayList;
 import java.util.List;

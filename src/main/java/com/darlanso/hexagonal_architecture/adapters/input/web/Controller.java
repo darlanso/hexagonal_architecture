@@ -1,5 +1,14 @@
-package com.darlanso.hexagonal_architecture;
+package com.darlanso.hexagonal_architecture.adapters.input.web;
 
+import com.darlanso.hexagonal_architecture.adapters.input.web.dto.CheckoutInputDTO;
+import com.darlanso.hexagonal_architecture.adapters.input.web.dto.CheckoutOutPutDTO;
+import com.darlanso.hexagonal_architecture.adapters.input.web.dto.ParkedCarInputDTO;
+import com.darlanso.hexagonal_architecture.adapters.input.web.dto.ParkedCarOutputDTO;
+import com.darlanso.hexagonal_architecture.adapters.output.repository.ParkedCarMemoryRepository;
+import com.darlanso.hexagonal_architecture.application.usecase.Checkin;
+import com.darlanso.hexagonal_architecture.application.usecase.Checkout;
+import com.darlanso.hexagonal_architecture.application.usecase.GetParkedCars;
+import com.darlanso.hexagonal_architecture.domain.port.ParkedCarRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

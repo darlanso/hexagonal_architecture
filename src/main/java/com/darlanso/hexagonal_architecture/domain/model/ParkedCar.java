@@ -1,4 +1,4 @@
-package com.darlanso.hexagonal_architecture;
+package com.darlanso.hexagonal_architecture.domain.model;
 
 import java.time.OffsetDateTime;
 import java.util.Date;
